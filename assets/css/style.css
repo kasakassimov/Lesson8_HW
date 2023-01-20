@@ -144,10 +144,12 @@ margin-top: 23px;
     justify-content: space-between;
 }
 .tours-picture{
-    background: url(../img/Изображение\ 1.png) no-repeat;
-    width: 65%;
+    background: url(../img/imgHawaii\ 1.png) no-repeat;
+    width: 60%;
     height: 75%;
     border-radius: 10px;
+    display: flex;
+    position: relative;
 }
 .tours-description{
     display: flex;
@@ -164,11 +166,13 @@ margin-top: 23px;
     justify-content: center;
 }
 .review-picture{
-    background: url(../img/Изображение\ 12.png) no-repeat;
+    background: url(../img/imgHawaii\ 2.png) no-repeat;
+    background-size: cover;
     width: 60%;
     height: 75%;
     border-radius: 10px;
-    float: right;
+    display: flex;
+    position: relative;
 }
 .btn-info{
     padding: 26px 65px;
@@ -270,4 +274,67 @@ footer{
 }
 .footer-icons svg{
 margin-left: 39px;
+}
+
+
+.info-date{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+.info-month{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 73px;
+    left: 60px;
+}
+.info-place{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    width: 22%;
+}
+.tours-picture svg{
+    position: absolute;
+    bottom: 67px;
+    right: 60px;
+}
+.review-picture svg{
+    position: absolute;
+    bottom: 67px;
+    right: 60px;
+}
+footer a{
+    color: #90A4B2;
+}
+a:hover{
+    color: #DD9428;
+    transition: 0.4s;    
+}
+.review-picture .info-place{    
+    width: 35%;
+}
+.btn-info:hover{
+    transition: 0.4s;
+    border: none;  
+    background-color: #DD9428ff;
+    color: #000000;
+    cursor: pointer;   
+}
+.btn-main:hover, .btn-form:hover{
+    transition: 0.4s;
+    border: none;
+    background-color: rgba(221, 149, 40, 0.803);
+    cursor: pointer;
 }
