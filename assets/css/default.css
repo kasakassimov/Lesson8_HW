@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    }
+a{
+    text-decoration: none;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+input[type="email"], input[type="text"]{
+    border: none;
+    background-color:
+    outline: none;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+}
